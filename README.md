@@ -1,15 +1,11 @@
 # UNet: Road Crack Segmentation implematation in PyTorch
 
-```
-UPDATING ...
-```
-
 |    Metrics    | DiceCE Loss | Dice Loss |  CE Loss | Focal Loss | SiLog Loss |
 |:-------------:|:-----------:|:---------:|:--------:|:----------:|:----------:|
-|   Dice score  |             |           |          |            |            |
-| Pixel Accuracy|             |           |          |            |            |
-| Classes_IOU   |             |           |          |            |            |
-|  Batch_IOU    |             |           |          |            |            |
+|   Dice score  |  0.9334     | 0.9824    |    0.9571      |   0.9950         |   0.8490 |
+| Pixel Accuracy| 0.98221      |  0.9823  |      0.9821    |   0.9815    |   0.9821  |   
+| Classes_IOU   |0.9816 0.4136 |0.9817 0.4259 | 0.9815 0.4195 | 0.9809 0.4643 | 0.9815 0.4227 | 
+|  Batch_IOU    |0.9826 0.4659|0.9833 0.4353| 0.9737 0.4376  | 0.9818 0.5343 | 0.9825 0.4557 |            
 
 
 Road crack segmentation is the task of identifying and segmenting road cracks in images or videos of roads. In this
