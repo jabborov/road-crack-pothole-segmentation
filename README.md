@@ -26,10 +26,10 @@ In our Road Crack Segmentation project, we successfully deployed the UNet model 
 We assessed the model's performance by employing various loss functions and conducting comparative analysis. The implemented loss functions include:
 
 - [**Cross Entropy Loss**](./utils/losses.py)
-- [**Dice Loss**]((./utils/losses.py))
-- [**Scale-Invariant Logarithmic Loss**]((./utils/losses.py))
-- [**Dice Cross Entropy Loss**]((./utils/losses.py))
-- [**Focal Loss**]((./utils/losses.py))
+- [**Dice Loss**](./utils/losses.py)
+- [**Scale-Invariant Logarithmic Loss**](./utils/losses.py)
+- [**Dice Cross Entropy Loss**](./utils/losses.py)
+- [**Focal Loss**](./utils/losses.py)
 
 We trained the model using the aforementioned loss functions and assessed their performance through the **Dice coefficient** (`dice
 score = 1 - dice loss`)
